@@ -6,7 +6,7 @@ namespace P1
 {
     static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             using (MyDataContext myDataContext = new MyDataContext())
             {
